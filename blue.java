@@ -1,9 +1,13 @@
-public class blue {  //throw in String
-    public static void main(String[] args){
-        int age = 19;
-        if(age<18){
-            throw new ArithmeticException("You cannot vote");
-        }
-        System.out.println("You can vote");
+import java.io.IOException;         //throws in String
+public class blue { 
+    static void read()throws IOException{
+            throw new IOException("file not found");
+
+    } 
+    public static void main(String[] args)throws IOException{
+              read();
+            
+    
+        }  
     }
-}//output:You can vote
+
