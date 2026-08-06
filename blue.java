@@ -7,6 +7,7 @@ public class blue {
     public static void main(String[] args)throws IOException{
               read();
             //output : file not found
+        
     
         }  
     }
